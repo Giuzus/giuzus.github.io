@@ -15,7 +15,7 @@ body {
     font-weight: 400;
     background-color: var(--background);
     color: var(--text);
-    font-family: 'Andale Mono, monospace';
+    padding: 2rem;
 }
 
 h1,
@@ -56,10 +56,26 @@ small {
     /* 12px */
 }
 
+.jumbotron {
+    max-width: 50rem;
+}
+
+.jumbotron>p {
+    font-size: 2rem;
+}
 
 
-
-.main {
+.github-link {
+    background-color: var(--primary);
+    width: fit-content;
+    border-radius: 1rem;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--background);
+}
+.github-link img{
+    height: 2rem;
 }
